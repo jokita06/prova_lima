@@ -1,112 +1,98 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
     <head>
         <meta charset="utf-8">
-        <title>Infos</title>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Joyce Kelly - Página Pessoal</title>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
     </head>
     <body> 
-        <header class="all-backgrounds text-center">
-            <div class="personal-informations">
-                <img src="./img/mm2.jpg" id="img-profile" class="img-circle">
-                <h1>Joyce Kelly</h1>
-                <h2>Student</h2>
+        <header class="banner">
+            <div>
+                <img src="./images/EuVulgoJoyce.jpg" alt="Foto de perfil de Joyce Kelly" class="profile-image">
+                <h1 class="titles">Joyce Kelly</h1>
             </div>
 
-            <div class="personal-informations">
+            <div class="profile-details">
                 <p>System developer / <strong>Senai</strong></p>
-                <a href="./login.html">Faça login!</a>
+                <a href="./login.html" class="login-link">Sign In!</a>
             </div>
         </header>
 
-        <aside class="all-backgrounds social-medias">
-            <ul class="list-inline">
-                <li class="text-center">
-                    <a href="https://www.facebook.com/">
-                        <i class="fa fa-facebook"></i>
-                        <p>Facebook</p>
+        <nav class="social-links">
+            <ul class="social-list">
+                <li class="social-item">
+                    <a href="https://www.facebook.com/" aria-label="Facebook">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <span>Facebook</span>
                     </a>
                 </li>
                 
-                <li class="text-center">
-                    <a href="https://www.linkedin.com/in/">
-                        <i class="fa fa-linkedin"></i>
-                        <p>Linkedin</p>
+                <li class="social-item">
+                    <a href="https://www.linkedin.com/in/" aria-label="LinkedIn">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <span>LinkedIn</span>
                     </a>
                 </li>
                 
-                <li class="text-center">
-                    <a href="https://bsky.app/">
-                    <i class="fa fa-instagram"></i>
-                    <p>Instagram</p>
+                <li class="social-item">
+                    <a href="https://bsky.app/" aria-label="Instagram">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <span>Instagram</span>
                     </a>
                 </li>
             </ul>
-        </aside>
+        </nav>
 
-        <main class="text-center">
-            <section class="favorites-movies all-backgrounds">
-                <h2>My Favorite movies</h2>
-                <table class="movies">
-                    <tbody>
-                        <tr>
-                            <td>
-                                <img src="./img/kiki.jpg">
-                            </td>
-                            <td>
-                                <h3>Kiki's Delivery Service</h3>
-                                <p>he story centers around Kiki, a young witch who, upon turning 13, must leave her home to find her place in the world and make a living.</p>
-                            </td>
-                        </tr>
-                        
-                        <tr>
-                            <td>
-                                <img src="./img/Mononoke.png">
-                            </td>
-                            <td>
-                                <h3>Mononoke Hime</h3>
-                                <p>Princess Mononoke is set in the late Muromachi period of Japan, but it includes fantasy elements. The story follows a young Emishi prince named Ashitaka, and his involvement in a struggle between the gods of a forest and the humans who consume its resources. The term mononoke (物の怪), or もののけ, is not a name, but a Japanese word for supernatural, shape-shifting beings that possess people and cause suffering, disease, or death.</p>
-                            </td>
-                        </tr>
-                        
-                        <tr>
-                            <td>
-                                <img src="./img/your.jpg">
-                            </td>
-                            <td>
-                                <h3>Your Name</h3>
-                                <p>Your Name tells the story of Taki, a high school boy in Tokyo and Mitsuha, a high school girl in a rural town, who suddenly and inexplicably begin to swap bodies.</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+        <main>
+            <section class="all-sections">
+                <h2 class="titles">My favorite movies</h2>
+                <div class="movies-grid">
+                    <article class="movie-card">
+                        <img src="./images/kiki.jpg" alt="Poster do filme Kiki's Delivery Service">
+                        <div>
+                            <h3>Kiki's Delivery Service</h3>
+                            <p>The story centers around Kiki, a young witch who, upon turning 13, must leave her home to find her place in the world and make a living.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="movie-card">
+                        <img src="./images/Coraline.jpg" alt="Poster do filme Coraline">
+                        <div>
+                            <h3>Coraline</h3>
+                            <p>The film tells the story of its eponymous character discovering an idealized alternate universe behind a secret door in her new home, unaware that it contains something dark and sinister.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="movie-card">
+                        <img src="./images/AliceInWordeland.jpg" alt="Poster do Alice In Wonderland">
+                        <div>
+                            <h3>Alice In Wonderland</h3>
+                            <p>Alice is a young girl who uses her surreal imagination to escape her mundane life. Alice's curiosity and yearn for something new leads her to a mysterious realm known as Wonderland. As she traverses through the wacky world, Alice finds herself appreciating the normality that she once rejected.</p>
+                        </div>
+                    </article>
+                </div>
             </section>
             
+            <section class="all-sections">
+                <div class="introduction-interests">
+                    <h2 class="titles">Others Interests</h2>
+                    <p>I like to explore diverse animes genres, from Studio Ghibli's, but my favorite anime is Attack on Titan.</p>
+                    <p>Indie games can be my favorites for their innovative gameplay and artistic expression. My favorite game is Stardew Valley.</p>
+                </div>
 
-            <section class="all-backgrounds other-interests">
-                <h2>Others Interests</h2>
-                <p style="text-align: center">Talking a little more about me:
-                <p>I love watch animes and play indie games.</p>
                 
-                <ul class="list-inline">
-                    <li>
-                        <p>Animes</p>
-                    </li>
-                    <li>
-                        <p>Games</p>
-                    </li>
-                    <li>
-                        <p>Filmes</p>
-                    </li>
+                <ul class="interests-list">
+                    <li>Animes</li>
+                    <li>Games</li>
+                    <li>Movies</li>
                 </ul>
             </section>
         </main>
         
-        
-        <footer>
-            <p>Todos os direitos reservados</p>
+        <footer class="footer">
+            <p>&copy; </span>2025 Joyce Kelly. Todos os direitos reservados.</p>
         </footer>
-
-  </body>
+    </body>
 </html>
